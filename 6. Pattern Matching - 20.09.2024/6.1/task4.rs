@@ -1,0 +1,9 @@
+// Виправлено всі помилки без додавання нового рядка
+fn main() {
+    let mut s = String::from("hello");
+    s.push(',');
+    s.push_str(" world");
+    s += "!";
+
+    println!("{}", s);
+}
